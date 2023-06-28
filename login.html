@@ -15,30 +15,32 @@
         <div class="container"> 
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-5">
-                    <div class="card-body px-3">
-                        <br>
-                            <center>
-                                <img src="./img/sak.png" class="rounded-circle" style="width: 100px;" alt="Avatar" />
-                            </center>
-                                <h1 style="text-align: center;" class="h1 py-2"><strong>SAKTECH</strong></h1>
-                            <div class="from-group">
+                    <form onsubmit="return login()">
+                        <div class="card-body px-3">
+                            <br>
                                 <center>
-                                    <input type="text" placeholder="Username" name="text" class="input">
+                                    <img src="./img/sak.png" class="rounded-circle" style="width: 100px;" alt="Avatar" />
                                 </center>
-                            </div>
-                            <p></p>
-                            <div class="from-group">
-                                <center>
-                                    <input type="password" placeholder="Password" name="text" class="input">
-                                </center>
-                            </div>
-                            <p></p>
-                            <div class="text-center px-5 py-4">
-                                <button> Login </button>
-                                    <a class="nav-link px-0 py-3 text-lg-center" href="#"><font style="color: #ef3636;">Forgot your password?</font></a>
-                            </div>
-                        
-                    </div>
+                                    <h1 style="text-align: center;" class="h1 py-2"><strong>SAKTECH</strong></h1>
+                                <div class="from-group">
+                                    <center>
+                                        <input type="text" placeholder="Username" id="username" name="text" class="input">
+                                    </center>
+                                </div>
+                                <p></p>
+                                <div class="from-group">
+                                    <center>
+                                        <input type="password" placeholder="Password" id="password" name="text" class="input">
+                                    </center>
+                                </div>
+                                <p></p>
+                                <div class="text-center px-5 py-4">
+                                    <button type="submit"> Login </button>
+                                        <a class="nav-link px-0 py-3 text-lg-center" href="#"><font style="color: #ef3636;">Forgot your password?</font></a>
+                                </div>
+                            
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -48,5 +50,8 @@
         <source src="./img/pexels-rostislav-uzunov-7385122 (2160p).mp4" type="video/mp4">
     </video>
     
+    <script src="./login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
 </body>
+<style></style>
 </html>
