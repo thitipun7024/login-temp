@@ -9,7 +9,7 @@
 } */
 
 html { 
-    background: url(./img/sl4.svg) center center fixed; 
+    background: url(./img/bg-sola.svg) center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,7 +17,7 @@ html {
   }
 
   body {
-    background: url(./img/sl4.svg) center center fixed; 
+    background: url(./img/bg-sola.svg) center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,7 +27,7 @@ html {
   .card {
     justify-content: center;
     width: 1020px;
-    height: 620px;
+    height: 650px;
     border-radius: 10px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
    }
